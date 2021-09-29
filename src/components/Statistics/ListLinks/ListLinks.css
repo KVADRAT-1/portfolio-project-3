@@ -1,0 +1,12 @@
+.ListLinks {
+  width: 1110px;
+  margin: 0 165px;
+  padding: 0;
+}
+
+@media (max-width: 1439px) {
+  .ListLinks {
+    width: 327px;
+    margin: 0 24px;
+  }
+}

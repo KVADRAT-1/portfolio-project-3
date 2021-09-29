@@ -1,0 +1,13 @@
+.Statistics {
+  width: 100%;
+  height: 909px;
+  padding-top: 108px;
+  background: #eff1f7;
+  position: relative;
+}
+
+@media (max-width: 1439px) {
+  .Statistics {
+    padding-top: 126px;
+  }
+}
