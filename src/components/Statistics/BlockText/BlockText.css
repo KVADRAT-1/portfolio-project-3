@@ -1,0 +1,37 @@
+.BlockText {
+  max-width: 540px;
+  margin: 120px 450px 0;
+  text-align: center;
+}
+
+.BlockText__title {
+  margin: 0 0 18px 0;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.BlockText__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 32px;
+  color: #9e9aa8;
+}
+
+@media (max-width: 1439px) {
+  .BlockText {
+    max-width: 327px;
+    margin: 80px 24px 0;
+  }
+
+  .BlockText__title {
+    margin: 0 0 16px 0;
+    font-size: 28px;
+    line-height: 48px;
+  }
+
+  .BlockText__text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

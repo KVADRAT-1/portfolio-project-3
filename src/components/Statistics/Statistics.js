@@ -1,6 +1,8 @@
 import './Statistics.css'
 import CompressionForm from './CompressionForm/CompressionForm.js'
 import ListLink from './ListLinks/ListLinks.js'
+import BlockText from './BlockText/BlockText.js'
+import BlockBoxs from './BlockBoxs/BlockBoxs.js'
 
 function Statistics({
   links,
@@ -22,6 +24,8 @@ function Statistics({
         setDirty={setDirty}
       />
       <ListLink links={links} />
+      <BlockText />
+      <BlockBoxs />
     </div>
   )
 }
