@@ -14,6 +14,7 @@
 }
 
 .BlockBoxs__box {
+  position: relative;
   width: 350px;
   height: 267px;
   margin: 144px 30px 0 0;
@@ -28,6 +29,26 @@
 
 .BlockBoxs__box:last-child {
   margin: 188px 0 0 0;
+}
+
+.BlockBoxs__icon {
+  position: absolute;
+  left: 32px;
+  top: -44px;
+}
+
+.BlockBoxs__title {
+  margin: 77px 32px 12px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.BlockBoxs__text {
+  margin: 0 32px;
+  font-size: 15px;
+  line-height: 26px;
+  color: #9e9aa8;
 }
 
 @media (max-width: 1439px) {
@@ -56,5 +77,17 @@
 
   .BlockBoxs__box:last-child {
     margin: 92px 0 0 0;
+  }
+
+  .BlockBoxs__icon {
+    left: 120px;
+  }
+
+  .BlockBoxs__title {
+    text-align: center;
+  }
+
+  .BlockBoxs__text {
+    text-align: center;
   }
 }
