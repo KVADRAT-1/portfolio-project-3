@@ -2,6 +2,8 @@ import './App.css'
 import Header from '../Header/Header.js'
 import AboutTheSite from '../AboutTheSite/AboutTheSite.js'
 import Statistics from '../Statistics/Statistics.js'
+import Boost from '../Boost/Boost.js'
+import Footer from '../Footer/Footer.js'
 import { useEffect, useState } from 'react'
 
 function App() {
@@ -44,6 +46,8 @@ function App() {
         dirty={dirty}
         setDirty={setDirty}
       />
+      <Boost />
+      <Footer />
     </div>
   )
 }

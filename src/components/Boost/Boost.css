@@ -1,0 +1,46 @@
+.Boost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+  background-color: #3a3054;
+  background-image: url(../../images/Boost/Boost.svg);
+}
+
+.Boost__title {
+  margin: 0 0 32px 0;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+}
+
+.Boost__button {
+  width: 197px;
+  height: 56px;
+  border: none;
+  border-radius: 28px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  background: #2bd0d0;
+}
+
+.Boost__button:hover {
+  cursor: pointer;
+  background: #9ae3e3;
+}
+
+@media (max-width: 1439px) {
+  .Boost {
+    height: 300px;
+    background-image: url(../../images/Boost/Boost-telephone.svg);
+  }
+
+  .Boost__title {
+    font-size: 28px;
+    line-height: 48px;
+  }
+}
