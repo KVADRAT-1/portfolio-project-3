@@ -3,12 +3,12 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 310px;
   color: white;
   background-color: #232127;
 }
 
 .Footer__box {
+  margin: 70px 0 70px 0;
   display: flex;
 }
 
@@ -58,6 +58,16 @@
 
 @media (max-width: 1439px) {
   .Footer__box {
+    margin: 54px 0 56px 0;
     flex-direction: column;
+  }
+
+  .Footer__logo {
+    margin: 0 auto 50px auto;
+  }
+
+  .Footer__list {
+    margin: 0 0 38px 0;
+    text-align: center;
   }
 }
